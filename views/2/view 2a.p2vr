@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>view 2a.png</filename>
+      <hotspotfilename>view 2.png</hotspotfilename>
+      <type>auto</type>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+    </viewingparameter>
+    <userdata/>
+    <hotspots>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>1</id>
+        <title>gate 2</title>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>2.37177e-18</pan>
+          <tilt>0</tilt>
+          <fov>1.07157e-19</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>2</id>
+        <title>move</title>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>2.43178e-17</pan>
+          <tilt>0</tilt>
+          <fov>5.75993e-19</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>3</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>1.52842e-15</pan>
+          <tilt>0</tilt>
+          <fov>5.76053e-19</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>4</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>9.83474e-17</pan>
+          <tilt>0</tilt>
+          <fov>1.22742e-29</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>5</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.39698e-18</pan>
+          <tilt>0</tilt>
+          <fov>1.2275e-29</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>6</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>1.19578e-24</pan>
+          <tilt>0</tilt>
+          <fov>2.04562e-30</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>7</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>9.83883e-17</pan>
+          <tilt>0</tilt>
+          <fov>1.08422e-17</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>8</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>9.83953e-17</pan>
+          <tilt>0</tilt>
+          <fov>1.08431e-17</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>9</id>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>9.84023e-17</pan>
+          <tilt>0</tilt>
+          <fov>1.47729e-18</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>10</id>
+      </hotspot>
+    </hotspots>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/view 2a.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="fullscreen">true</value>
+            <value id="gyro">false</value>
+            <value id="jsxml">false</value>
+            <value id="manifest">false</value>
+            <value id="maps">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">true</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="touchicon"></value>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>0</enabled>
+          <speed>0.4</speed>
+          <delay>5</delay>
+          <returntohorizon>0</returntohorizon>
+          <afterloaded>0</afterloaded>
+        </autorotate>
+        <hotspottext>
+          <enabled>1</enabled>
+          <width>180</width>
+          <height>20</height>
+          <auto>0</auto>
+          <textcolor>#000000</textcolor>
+          <textwrap>1</textwrap>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <hotspotstyle>
+          <viewmode>visible</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <filename>output/view 2a_out.xml</filename>
+        <tilesize>2740</tilesize>
+        <quality>100</quality>
+        <progressivejpeg>0</progressivejpeg>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>1080</windowwidth>
+        <windowheight>1920</windowheight>
+        <fovmode>vertical</fovmode>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>1</invertcontrol>
+        <dblclickfullscreen>0</dblclickfullscreen>
+        <lockedwheel>0</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <skinSvgToPng>0</skinSvgToPng>
+        <skinimagepath>images</skinimagepath>
+        <preview>grayscale</preview>
+        <previewcolor>#808080</previewcolor>
+        <previewresolution>4</previewresolution>
+        <previewquality>25</previewquality>
+      </htmlcss>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
